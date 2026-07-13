@@ -1,0 +1,26 @@
+body {
+    font-family: Georgia,  serif; /* Font family */
+    font-size: 17px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #ebfff8; /* A cor do plano de fundo da página */
+    color: #333333; /* A cor do texto */ 
+}
+h1 {
+    color: #296c96; /* A cor do cabeçalho */
+    font-size: 32px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+  0%   { color: hsl(0, 0%, 0%); }
+  50%  { color: rgb(4, 0, 255); }
+  100% { color: rgb(0, 0, 0); }
+}
+h2 {
+    color: #9a2d2d; /* A cor do cabeçalho */
+    font-size: 28px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
+
+img {
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra à imagem */
+}
